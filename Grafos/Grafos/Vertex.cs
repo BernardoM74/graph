@@ -7,7 +7,7 @@ namespace Graph
 {
     class Vertex
     {
-        public int id { get; set; }
+        public string id { get; set; }
         public string color { get; set; }
         public int distance { get; set; }
         public int discoveryTime { get; set; }
@@ -15,5 +15,15 @@ namespace Graph
         public Vertex fatherVertex { get; set; }
 
         public List<Vertex> adjList = new List<Vertex>();
+        public List<Vertex> predecessors = new List<Vertex>();
+
+        public Vertex()
+        {
+            this.id = "A";
+            this.color = "white";
+            this.distance = Int32.MaxValue;
+            this.discoveryTime = 0;
+            this.fatherVertex = null;
+        }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berna\\source\\repos\\Grafos\\Grafos\\Graph.csproj",
+      "projectUniqueName": "C:\\Users\\berna\\OneDrive\\Documentos\\PUCSG\\Grafos\\graph\\Grafos\\Grafos\\Graph.csproj",
       "projectName": "Graph",
-      "projectPath": "C:\\Users\\berna\\source\\repos\\Grafos\\Grafos\\Graph.csproj",
+      "projectPath": "C:\\Users\\berna\\OneDrive\\Documentos\\PUCSG\\Grafos\\graph\\Grafos\\Grafos\\Graph.csproj",
       "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berna\\source\\repos\\Grafos\\Grafos\\obj\\",
+      "outputPath": "C:\\Users\\berna\\OneDrive\\Documentos\\PUCSG\\Grafos\\graph\\Grafos\\Grafos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config",

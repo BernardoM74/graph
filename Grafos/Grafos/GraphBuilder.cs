@@ -9,6 +9,8 @@ namespace Graph
     {
         private int numberOfVertexes;
         private int numberOfEdges;
+        private char[] alphabet = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+            'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
         public List<Vertex> listOfVertexes = new List<Vertex>();
         public List<int> listExit = new List<int>();
 
@@ -27,14 +29,14 @@ namespace Graph
                     string[] separatedData = data[i].Split(' ');
 
                     // Search vertex related to U and V values.
-                    Vertex v1 = listOfVertexes.Find(someVertex => someVertex.id == Convert.ToInt32(separatedData[0]));
-                    Vertex v2 = listOfVertexes.Find(someVertex => someVertex.id == Convert.ToInt32(separatedData[1]));
-                    
+                    Vertex v1 = listOfVertexes.Find(someVertex => someVertex.id == separatedData[0]);
+                    Vertex v2 = listOfVertexes.Find(someVertex => someVertex.id == separatedData[1]);
+
                     //Add to each vertex his adjacent
                     v1.adjList.Add(v2);
                     v2.adjList.Add(v1);
 
-                    Console.WriteLine("--------- V("+v1.id+") Adjacent List ---------");
+                    Console.WriteLine("--------- V(" + v1.id + ") Adjacent List ---------");
                     foreach (Vertex v in v1.adjList)
                     {
                         Console.Write(v.id + "\t");
@@ -42,7 +44,7 @@ namespace Graph
                     Console.WriteLine();
 
                     Console.WriteLine("--------- V(" + v2.id + ") Adjacent List ---------");
-                    foreach ( Vertex v in v2.adjList)
+                    foreach (Vertex v in v2.adjList)
                     {
                         Console.Write(v.id + "\t");
                     }
@@ -100,7 +102,7 @@ namespace Graph
             for (int i = 0; i < n; i++)
             {
                 Vertex newVertex = new Vertex();
-                newVertex.id = i;
+                newVertex.id = alphabet[i].ToString();
                 listOfVertexes.Add(newVertex);
             }
         }
@@ -111,9 +113,9 @@ namespace Graph
 
             foreach (Vertex someVertex in listOfVertexes)
             {
-                if (someVertex.id != vertexToReceiveEdge.id)
+                if (someVertex.id.CompareTo(vertexToReceiveEdge.id) != 0)
                 {
-                    if (vertexWithMinorDegree.id == 0)
+                    if (vertexWithMinorDegree.id.Equals("0") || vertexWithMinorDegree.id.Equals("A"))
                     {
                         vertexWithMinorDegree = someVertex;
                     }
@@ -129,7 +131,7 @@ namespace Graph
         public void Search(string method)
         {
             GraphSearch gs = new GraphSearch(listOfVertexes);
-            if ( method == "BFS")
+            if (method == "BFS")
             {
                 gs.BFS();
             }
