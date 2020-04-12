@@ -1,0 +1,13 @@
+C:\Users\berna\source\repos\Grafos\Grafos\bin\Debug\netcoreapp3.1\Graph.exe
+C:\Users\berna\source\repos\Grafos\Grafos\bin\Debug\netcoreapp3.1\Graph.deps.json
+C:\Users\berna\source\repos\Grafos\Grafos\bin\Debug\netcoreapp3.1\Graph.runtimeconfig.json
+C:\Users\berna\source\repos\Grafos\Grafos\bin\Debug\netcoreapp3.1\Graph.runtimeconfig.dev.json
+C:\Users\berna\source\repos\Grafos\Grafos\bin\Debug\netcoreapp3.1\Graph.dll
+C:\Users\berna\source\repos\Grafos\Grafos\bin\Debug\netcoreapp3.1\Graph.pdb
+C:\Users\berna\source\repos\Grafos\Grafos\obj\Debug\netcoreapp3.1\Graph.csprojAssemblyReference.cache
+C:\Users\berna\source\repos\Grafos\Grafos\obj\Debug\netcoreapp3.1\Graph.csproj.CoreCompileInputs.cache
+C:\Users\berna\source\repos\Grafos\Grafos\obj\Debug\netcoreapp3.1\Graph.AssemblyInfoInputs.cache
+C:\Users\berna\source\repos\Grafos\Grafos\obj\Debug\netcoreapp3.1\Graph.AssemblyInfo.cs
+C:\Users\berna\source\repos\Grafos\Grafos\obj\Debug\netcoreapp3.1\Graph.dll
+C:\Users\berna\source\repos\Grafos\Grafos\obj\Debug\netcoreapp3.1\Graph.pdb
+C:\Users\berna\source\repos\Grafos\Grafos\obj\Debug\netcoreapp3.1\Graph.genruntimeconfig.cache
